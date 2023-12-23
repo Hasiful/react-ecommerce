@@ -1,0 +1,13 @@
+.section_title {
+    margin-bottom: 50px;
+}
+
+.section_title_heading {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.section_btn a {
+    color: var(--orange-color);
+    text-decoration: underline;
+}

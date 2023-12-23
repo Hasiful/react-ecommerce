@@ -1,0 +1,56 @@
+.footer_section {
+    padding: 100px 0px;
+    background-color: var(--main-color);
+}
+
+.footer_logo img {
+    max-width: 230px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.footer_desc {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.footer_item_title {
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.payment_wrapper {
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.payment_image {
+    padding: 7px 10px;
+    border-radius: 6px;
+    background-color: var(--white);
+}
+
+.payment_image img {
+    height: 22px;
+}
+
+.footer_nav_item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.footer_nav_link {
+    color: var(--white);
+    font-weight: 500;
+    line-height: 1.6;
+    transition: all linear 0.3s;
+}
+
+.footer_nav_link:hover{
+    text-decoration: underline !important;
+}
